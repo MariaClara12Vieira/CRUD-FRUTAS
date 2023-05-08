@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0ecbd;
+    text-decoration-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+  h1 {
+    text-align: center;
+  }
+    
+  h2 {
+   text-align: center;
+   color: #ffffff;
+   font-family: Arial, sans-serif;
+   font-size: 25px;
+  }
+    
+ .form {
+   max-width: 500px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #6ea87d;
+   border-radius: 5px;
+  }   
+  
+ .label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="e-mail"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="number"],
+  
+  textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3c805a;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #627962;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  
+  }
+  
+  
+  input[type="submit"]:hover {
+    background-color: #bdf6c4;
+  }
+  
+  .item{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #75985f;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+  }
